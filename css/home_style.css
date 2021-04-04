@@ -1,0 +1,44 @@
+.camera {
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    overflow: hidden;
+}
+.teacher {
+    position: absolute;
+    margin-bottom: 0;
+}
+
+.container {
+    display: flex;
+    margin-top: 10em;
+
+    
+}
+.inner {
+    text-align: center;
+}
+.inner > h1 {
+    font-size: 9em;
+    animation: Slide_Up 1.4s ease;
+}
+.inner > p {
+    font-size: 1.5em;
+    animation: Slide_Up 1.8s ease;
+}
+.inner > button {
+    animation: Slide_Up 2s ease;
+}
+
+a{
+    color: white;
+}
+
+@keyframes Slide_Up{
+    0%{
+        transform: translateY(250px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
